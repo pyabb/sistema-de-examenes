@@ -1,0 +1,39 @@
+/*resoluciones: <576, >= 576, >=768, >=992, >=1200*/
+@media (max-width:576px){
+	
+	.title-pageWrap, .search-wrap{
+		flex-basis: 100%; 
+	}
+
+}
+
+@media (max-width:768px){
+	.cabezera{
+		flex-flow: column;
+	}
+	.title-pageWrap, .search-wrap{
+		flex-basis: 100%; 
+	}
+	.title-pageWrap{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 10px;
+	}
+	.search-wrap{
+		flex-flow: column;
+	}
+	.search-coursesBtn{
+		margin: 10px 0px;
+	}
+	.contenedorTablaResultados{
+		overflow-y: scroll;
+	}
+}
+
+@media (max-width:946px){
+	
+}
+
+@media (max-width:992px){
+		
+}

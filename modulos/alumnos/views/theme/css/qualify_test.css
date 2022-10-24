@@ -1,0 +1,32 @@
+.data-testWrap{
+	background: #F9F9FA;
+	border: solid 1px #BEBEBF;
+	margin: 15px 0px;
+	padding: 10px;
+}
+.test-name{
+	margin-bottom: 20px;
+}
+.list-questions > li{
+	margin-top: 30px;
+}
+.question-wrap{
+	display: flex;
+}
+.its-correct,
+.its-incorrect{
+	border-radius: 50%;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+	width: 30px;
+	height: 30px;
+}
+.its-correct{
+	background: #18A05E; 
+}
+.its-incorrect{
+	background: #DD5044;	
+}

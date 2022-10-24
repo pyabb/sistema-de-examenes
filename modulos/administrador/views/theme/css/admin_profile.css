@@ -1,0 +1,45 @@
+.title-page{
+	text-align: left;	
+	margin-bottom: 5px;
+}
+.title-form{
+	margin-bottom: 30px;
+}
+.change-formWrap,
+.set-formWrap{
+	background: #F9F9FA;
+	margin: 0px;
+	padding: 10px;
+}
+.change-dataForm,
+.change-passwordForm{
+	padding: 15px;
+}
+.change-dataForm{
+	width: 100%;
+}
+.change-passwordForm{
+	width: 100%;
+}
+.user-typeTxt{
+	margin-bottom: 10px;
+}
+.userType{
+	text-decoration: underline;
+}
+.form-body{
+	display: block;
+}
+.footer-form{
+	box-sizing: border-box;
+	height: 60px;
+}
+.footer-formRow{
+	box-sizing: border-box;
+	padding: 10px 0px;
+}
+.action-btn{
+	color: #0099E1;
+}
+
+

@@ -1,0 +1,83 @@
+Administrador 
+
+Pantalla pricipal 
+Se muestran cantidad de examenes y alumnos registrados.
+
+
+Menu alumnos
+
+Registrar
+Registrar datos del alumnos.
+
+Administrar alumnos
+Lista de alumnos y la posibilidad de editar sus datos, su estado o resetear 
+su password en caso de que el alumno lo olvide. Para mostrar el formulario de editar 
+datos solo hay que dar click en el boton editar. Para borrar un alumno hay que dar click 
+en el boton borrar.Para resetear el password hay que dar click en la palabra resetear.Para 
+cambiar el estado del alumno hay que dar click en la palabra activo o incativo segun sea el 
+caso. Se puede realizar busqueda por nombre de alumno.
+
+
+Menu examenes
+
+Registrar
+En esta seccion se pueden registrar los examenes, agregarles preguntas con sus respuestas, 
+editar nombre, borrar examen, modificar estado de examen, configurar tiempo de examen y promedio.
+Para registrar examen solo hay que introducir el nombre del examen y dar enter. El examen se cargara 
+en la tabla. 
+Para editar la configuracion dar click en el boton de engrane. Se puede modificar fecha y hora de aplicacion,
+fecha y hora de expiracion y promedio minimo.
+
+Escribir examen 
+Para agregar preguntas al examen registrado hay dar click en el nombre del examen.
+En la seccion escribir examen podremos agregar la s instrucciones del examen, preguntas y respuestas.
+Para agregar instrucciones dar click en el botonescribir instrucciones.
+Para agregar una pregunta dar click en el boton agregar pregunta.
+Cada pregunta contiene botones con iconos para editar pregunta, borrar pregunta y agregar respuesta.
+Las respuestas tienen boton para editar y borrar respuesta.
+
+Menu evaluaciones
+En esta seccion se pueden ver los examenes que ya realizaron los alumnos. Para ver que alumnos han hecho un examen 
+en especifico dar click en el nombre del examen.
+
+Alumnos evaluados
+En esta seccion se pueden ver los alumnos que han hecho el examen seleccionado y sus notas.
+Si quiere que el alumno pueda volver a hacer el examen dar click en el boton borrar.
+
+
+Menu con nombre del usuario
+
+Perfil
+Editar datos de usuario y password.
+
+Salir 
+Salir de la aplicacion.
+  
+
+Alumno
+
+Pantalla pricipal 
+Aparecen examenes que puede realizar el alumno.
+Hacer click en el nombre del examen para entrar a realizarlo.
+
+Hacer examen
+El examen tiene un medidor de tiempo restante en la parte superior derecha.
+El examen muestra el total de preguntas y presenta 10 preguntas por pagina.
+Para enviar las respuestas solo hay que hacer click en el boton enviar.
+Una vez enviadas las respuestas se mostrara su calificacion de examen.
+
+Evaluaciones
+Se muestran los examenes realizados por el alumno, mostrando nombre del examen, 
+numero de respuestas correctas, incorrectas, promedio, status(aprobado o no aprobado).
+
+Menu con nombre de usuario
+
+Perfil
+El alumno puede editar sus datos (usuario, nombre, apellidos) y su password.
+
+Salir 
+Salir de la apliacion.
+
+
+
+

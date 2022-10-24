@@ -1,0 +1,23 @@
+.title-page{
+	margin: 20px 0px;
+	text-align: left;
+	padding: 0px 10px; 
+}
+.login-link{
+	text-align: right;
+}
+.login-link a{
+}
+.form-wraper{
+	border: solid 1px #F1F1F1;
+	padding: 20px;
+}
+.form-header{
+	padding: 10px;
+}
+.footer-form{
+	padding: 10px;
+}
+.action-btn{
+	color: #0099E1;
+}

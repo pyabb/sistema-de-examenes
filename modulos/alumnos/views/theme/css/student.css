@@ -1,0 +1,27 @@
+.title-page{
+	text-align: center;
+}
+.title-pageH2{
+	margin: 10px 0px 20px 0px;
+}
+.test-menuWrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.test-list{
+	background: white;
+	border: solid 1px #BEBEBF;
+	margin-top: 20px; 
+	padding: 10px;
+	text-align: center;
+	width: 80%;
+}
+.test-list th{
+	background: #272822;
+	color: white; 
+}
+.test-listItem a{
+	color: #333333;
+}
+

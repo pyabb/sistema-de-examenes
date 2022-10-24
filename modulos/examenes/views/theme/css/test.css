@@ -1,0 +1,97 @@
+.add-testBar{
+	background: #272822;
+	color: #59BDF8;
+	font-size: 120%;
+	padding: 10px;
+}
+.add-testWrap{
+	padding: 0px;
+}
+.add-testBtn{
+	background: #59BDF8;
+	border: solid 1px #59BDF8;
+	color: white;
+}
+#test-nameLabel{
+	justify-content: flex-start;
+}
+.search-formWrap .col{
+	padding: 0px;
+}
+
+#search-btn{
+	border: solid 1px #595959;
+}
+
+/*tablas*/
+.td-name{
+	width: 300px;
+}
+
+/*botones de tabla*/
+.test-nameBtn{
+	color: #272822;
+	padding: 5px 0px;
+}
+.test-nameBtn:hover{
+	text-decoration: underline;
+}
+.status-btn{
+	background: white;
+	border: none;
+}
+.status-btn:hover{
+	text-decoration: underline;
+}
+.update-testBtn,
+.del-testBtn{
+	background: none;
+	border: solid 1px grey;
+	color: grey;
+}
+.update-testBtn:hover{
+	background: #4989F4;
+	border: solid 1px #4989F4;
+}
+.del-testBtn:hover{
+	background: #DD4F42;
+	border: solid 1px #DD4F42;
+}
+
+/*form para editar nombre del examen*/
+.up-containerForm{
+	width: 300px;
+}
+.update-testWrap{
+	display: none;
+	position: absolute;
+	width: 550px;
+}
+.update-testForm{
+	background: white;
+	border: solid 1px #DDE1E4;
+	box-sizing: border-box;
+	padding: 10px;
+	width: 550px;
+}
+.wrap-control{
+	display: flex;
+	width: 530px;
+}
+.wrap-control label{
+	flex-basis: 35%;
+}
+.wrap-control input{
+	border: solid 1px #DDE1E4;
+	flex-basis: 65%;
+}
+.footer-form{
+	padding: 10px 0px 0px 0px;
+}
+.up-testBtn{
+	background: #4989F4;
+}
+
+.save-configBtn{
+	color: #0099E1;
+}

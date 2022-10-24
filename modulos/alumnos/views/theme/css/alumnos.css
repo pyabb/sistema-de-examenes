@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+/*CONTENEDOR CABEZERA*/
+.cabezera{
+	background-color: #272822;
+	box-sizing: border-box;
+	display: flex;
+	margin-bottom: 20px;
+	width: 100%;
+	height: auto;
+	min-height: 30px;
+	padding: 10px;
+}
+
+/*TITULO*/
+.title-pageWrap, 
+.header-addBtn{
+	color: white;
+	display: flex;
+	align-items: center;
+}   
+.header-addBtn, 
+.search-coursesBtn{
+	color: white;
+	justify-content: center;
+	min-height: 30px;
+	height: auto;		
+	box-sizing: border-box;
+}
+.title-pageWrap{
+	flex-basis: 30%;
+}
+/*Busqueda*/
+.search-wrap{
+	flex-basis: 70%;
+	display: flex;
+}
+.header-addBtn, 
+.search-coursesBtn{
+	background: #00AAFF;
+	flex-basis: 30%;
+	padding: 5px;
+}
+.search-coursesBtn{
+	padding: 0px;
+}
+.header-addBtn:hover, .search-coursesBtnTxt:hover{
+	opacity: 0.7;
+}
+/*boton para buscar por cursos*/
+.search-coursesBtn{
+	box-sizing: border-box;
+	margin: 0px 15px 0px 15px;
+	position: relative;
+	border: solid 1px #00AAFF;
+}
+.search-coursesBtnTxt{
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;		
+	width: 100%;
+	height: 100%;
+}
+
+/*MENU DE CURSOS PARA CONSULTA*/
+.lista-cursos{
+	background: white;
+	box-shadow: 0px 25px 74px -16px rgba(0,0,0,0.48);
+	box-sizing: border-box;
+	display: none;
+	position: absolute;
+	top: 28px;
+	right: 0px;
+	list-style-type: square;			
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+}
+.lista-cursos li{
+	margin-bottom: 10px;
+}
+.lista-cursos a{
+	color: #272822;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.lista-cursos a:hover{
+	color: #0099FF;
+}
+
+/*formulario de busqueda por palabras*/
+.search-form{
+	display: flex;
+	flex-basis: 40%;
+}
+.search-formTxt{
+	border: solid 1px white; 
+	border-right: none; 
+	border-radius: 0px;
+	border-bottom-right-radius: 0px;
+	flex-basis: 90%;
+	font-size: 110%;
+	padding: 0px 10px 0px 10px;
+	
+}
+.btn-search{
+	background: white;
+	border: solid 1px white; 
+	border-left: none;
+	border-radius: 0px;
+	flex-basis: 10%;
+}
+.btn-search:hover, .btn-search:hover > span{
+	background: #0099FF;
+	color: white;
+}
+.btn-searchIcon{
+	color: #BBBBBB;
+	font-size: 120%;
+}
+
+/*tabla de resultados*/
+.number-resultsWrap{
+	padding: 5px 0px;
+}
+.number-results{
+	font-weight: bold;
+}

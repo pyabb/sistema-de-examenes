@@ -1,0 +1,70 @@
+.title-page{
+	display: flex;
+	align-items: center;
+	margin-bottom: 0px;
+}
+
+/*data tables*/
+#search-form{
+	width: 60%;
+}
+
+.reset-passBtn{
+	background: none;
+	border: none;
+	color: #4A8AF4;
+}
+.reset-passBtn:hover{
+	text-decoration: underline;
+}
+.update-statusBtn{
+	background: none;
+	border: none;
+	width: 100px;
+}
+.update-statusBtn:hover{
+	text-decoration: underline;
+}
+.open-updateFormBtn, 
+.del-studentBtn{
+	background: none;
+	border: solid 1px grey;
+	color: grey;
+}
+.del-studentBtn:hover{
+	background: #DD4F42;
+	border: solid 1px #DD4F42;
+}
+.open-updateFormBtn:hover{
+	background: #4A8AF4;
+	border: solid 1px #4A8AF4; 
+}
+.set-formContainer{
+	top: 50%;
+}
+.set-formWrap{
+	border: solid 1px #DDDDDD;
+	background: white;
+	display: none;
+	padding: 20px;
+	position: absolute;
+	width: 60%;
+}
+.foot-col-row{
+	text-align: right;
+}
+.action-btn{
+	color: #0099E1;
+}
+.modal-body{
+	display: flex;
+}
+.wrap-control{
+	flex-basis: 35%;
+}
+.wrap-control input{
+	width: 100%;
+}
+.del-confirm{
+	background: #4A8ACC; 
+}

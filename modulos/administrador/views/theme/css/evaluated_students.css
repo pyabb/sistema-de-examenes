@@ -1,0 +1,17 @@
+.title-page{
+	text-align: center;
+}
+.test-nameH2{
+	margin-bottom: 20px;
+	padding: 0px;
+	text-decoration: underline;
+}
+.del-studentBtn{
+	background: none;
+	border: solid 1px grey;
+	color: grey;
+}
+.del-studentBtn:hover{
+	background: #DD4F42;
+	border: solid 1px #DD4F42;
+}
